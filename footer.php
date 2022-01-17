@@ -17,8 +17,8 @@
 				</div>
 				<div class="col-md-6 text-right">
 					<ul>
-						<li><a href=""><i class="fa fa-facebook"></i></a></li>
-						<li><a href=""><i class="fa fa-youtube-play"></i></a></li>
+						<li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
 					</ul>
 				</div>
 			</div>

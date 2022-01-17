@@ -1,6 +1,12 @@
 <?php include 'header.php';?>
 <main>
-	<section class="box-banner"></section>
+	<section class="box-banner">
+		<div class="slide-banner">
+			<div class="item-slide">
+				<div class="item-banner"><a href="javascript:void(0)"><img src="images/banner.png" class="img-fluid w-100" alt=""></a></div>
+			</div>
+		</div>
+	</section>
 	<section class="box-about">
 		<div class="container">
 			<div class="title text-center">
@@ -18,7 +24,7 @@
 	<section class="box-linhvuc">
 		<div class="container">
 			<div class="list-linhvuc">
-				<div class="row">
+				<div class="row align-items-center">
 					<div class="col-md-4">
 						<div class="txt-linhvuc text-right">
 							<div class="title"><h2>Lĩnh vực</h2></div>
@@ -99,24 +105,30 @@
 			<div class="list-benef text-center">
 				<div class="row">
 					<div class="col-md-4">
-						<div class="icon"><img src="images/ben.png" class="img-fluid" alt=""><span>1</span></div>
-						<div class="info">
-							<h3>Tài Trợ Đến 20 Dự án thí điểm</h3>
-							<div class="desc">Các giải pháp này có tiềm năng góp phần vào mục tiêu tăng cường khả năng thích ứng và an ninh năng lượng đô thị nhưng gặp vướng mắc trong áp dụng.</div>
+						<div class="item-benn">
+							<div class="icon"><img src="images/ben.png" class="img-fluid" alt=""><span>1</span></div>
+							<div class="info">
+								<h3>Tài Trợ Đến 20 Dự án thí điểm</h3>
+								<div class="desc">Các giải pháp này có tiềm năng góp phần vào mục tiêu tăng cường khả năng thích ứng và an ninh năng lượng đô thị nhưng gặp vướng mắc trong áp dụng.</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="icon"><img src="images/ben.png" class="img-fluid" alt=""><span>2</span></div>
-						<div class="info">
-							<h3>Phát triển quy mô thương mại</h3>
-							<div class="desc">Các tổ chức đăng ký hoạt động có ý tưởng đột phá thuộc lĩnh vực: giao thông vận tải, hiệu quả sử dụng điện tại các tòa nhà, phát điện, cung cấp và quản lý điện, hiệu quả sử dụng nước.</div>
+						<div class="item-benn">
+							<div class="icon"><img src="images/ben.png" class="img-fluid" alt=""><span>2</span></div>
+							<div class="info">
+								<h3>Phát triển quy mô thương mại</h3>
+								<div class="desc">Các tổ chức đăng ký hoạt động có ý tưởng đột phá thuộc lĩnh vực: giao thông vận tải, hiệu quả sử dụng điện tại các tòa nhà, phát điện, cung cấp và quản lý điện, hiệu quả sử dụng nước.</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="icon"><img src="images/ben.png" class="img-fluid" alt=""><span>3</span></div>
-						<div class="info">
-							<h3>Phát triển quy mô diện rộng</h3>
-							<div class="desc">Hỗ trợ thí điểm và trình diễn các ý tưởng đổi mới tại Đà Nẵng và Hồ Chí Minh, có tiềm năng nhân rộng quy mô và ứng dụng thương mại.</div>
+						<div class="item-benn">
+							<div class="icon"><img src="images/ben.png" class="img-fluid" alt=""><span>3</span></div>
+							<div class="info">
+								<h3>Phát triển quy mô diện rộng</h3>
+								<div class="desc">Hỗ trợ thí điểm và trình diễn các ý tưởng đổi mới tại Đà Nẵng và Hồ Chí Minh, có tiềm năng nhân rộng quy mô và ứng dụng thương mại.</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -128,7 +140,7 @@
 			<div class="list-ctn-page">
 				<div class="row">
 					<div class="col-md-6">
-						<div class="item-inf-page">
+						<div class="item-inf-page item-doituong">
 							<h4 class="text-center text-uppercase">Đối tượng tham gia</h4>
 							<div class="info">
 								<p>Các tổ chức đã đăng ký hoạt động tại Việt Nam, đặc biệt là các tổ chức do phụ nữ lãnh đạo (bao gồm các tổ chức phi chính phủ, trường đại học, tổ chức tư nhân vì lợi nhuận, nhà cung cấp/phát triển công nghệ và cơ sở đào tạo trong nước và của Hoa Kỳ) có ý tưởng đột phá thuộc các lĩnh vực sau được khuyến khích đăng ký:</p>
@@ -143,7 +155,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="item-inf-page">
+						<div class="item-inf-page item-tieuchi">
 							<h4 class="text-center text-uppercase">tiêu chí đánh giá</h4>
 							<div class="info">
 								<p>Các tiêu chí sau sẽ được áp dụng cho tất cả các Hồ sơ đăng ký. Hồ sơ không được đánh giá trên cơ sở so sánh với các hồ sơ khác mà sẽ dựa trên các tiêu chí đánh giá sau:</p>
@@ -171,15 +183,15 @@
 			<div class="list-info-brief">
 				<div class="tab-brief">
 					<ul>
-						<li><a href="javascript:void(0)" data-tab="tab-1" class="active">Hồ sơ tổ chức/a></li>
-						<li><a href="javascript:void(0)" data-tab="tab-2">Thông tin dự án thí điểm/trình diễn đề xuất</a></li>
-						<li><a href="javascript:void(0)" data-tab="tab-3">Nguồn vốn</a></li>
-						<li><a href="javascript:void(0)" data-tab="tab-4">Mục đích cấp vốn</a></li>
-						<li><a href="javascript:void(0)" data-tab="tab-5">Thông tin khác</a></li>
+						<li data-tab="tab-1" class="clc-tab active"><a href="javascript:void(0)">Hồ sơ tổ chức</a></li>
+						<li data-tab="tab-2" class="clc-tab"><a href="javascript:void(0)">Thông tin dự án thí điểm/trình diễn đề xuất</a></li>
+						<li data-tab="tab-3" class="clc-tab"><a href="javascript:void(0)">Nguồn vốn</a></li>
+						<li data-tab="tab-4" class="clc-tab"><a href="javascript:void(0)">Mục đích cấp vốn</a></li>
+						<li data-tab="tab-5" class="clc-tab"><a href="javascript:void(0)">Thông tin khác</a></li>
 					</ul>
 				</div>
 				<div class="tab-content-brief">
-					<div class="content-brief active" id="tab-1">
+					<div class="detail-tab content-brief active" id="tab-1">
 						<ul>
 							<li>Loại giải pháp/công nghệ năng lượng phân tán tiên tiến; vui lòng nêu rõ nếu dự án có yếu tố đổi mới hoặc mới tại Việt Nam, bao gồm các thông tin về rủi ro và cơ hội;</li>
 							<li>Mô tả sản phẩm, mô hình kinh doanh hoặc mô hình tài chính;</li>
@@ -190,7 +202,7 @@
 							<li>Ước tính khả năng nhân rộng hoặc phát triển thương mại của sản phẩm, mô hình kinh doanh hoặc mô hình tài chính tại thị trường Việt Nam.</li>
 						</ul>
 					</div>
-					<div class="content-brief" id="tab-2">
+					<div class="detail-tab content-brief" id="tab-2">
 						<ul>
 							<li>Loại giải pháp/công nghệ năng lượng phân tán tiên tiến; vui lòng nêu rõ nếu dự án có yếu tố đổi mới hoặc mới tại Việt Nam, bao gồm các thông tin về rủi ro và cơ hội;</li>
 							<li>Mô tả sản phẩm, mô hình kinh doanh hoặc mô hình tài chính;</li>
@@ -199,14 +211,14 @@
 							<li>Thời gian thí điểm/trình diễn dự kiến;</li>
 						</ul>
 					</div>
-					<div class="content-brief" id="tab-3">
+					<div class="detail-tab content-brief" id="tab-3">
 						<ul>
 							<li>Địa điểm thí điểm/trình diễn dự kiến (tên (các) thành phố và mô tả (các) địa điểm trong (các) thành phố, ví dụ nhà máy);</li>
 							<li>Sản phẩm, mô hình kinh doanh hoặc mô hình tài chính đang ở giai đoạn phát triển nào;</li>
 							<li>Thời gian thí điểm/trình diễn dự kiến;</li>
 						</ul>
 					</div>
-					<div class="content-brief" id="tab-4">
+					<div class="detail-tab content-brief" id="tab-4">
 						<ul>
 							<li>Thời gian thí điểm/trình diễn dự kiến;</li>
 							<li>Sản lượng năng lượng tái tạo ước tính sẽ được tạo ra hoặc mức năng lượng ước tính tiết kiệm được hàng năm bằng MWh hoặc tấn dầu tương đương nhờ sản phẩm, mô hình kinh doanh hoặc mô hình tài chính đề xuất và phương pháp ước tính;</li>
@@ -216,7 +228,7 @@
 							<li>Thời gian thí điểm/trình diễn dự kiến;</li>
 						</ul>
 					</div>
-					<div class="content-brief" id="tab-5">
+					<div class="detail-tab content-brief" id="tab-5">
 						<ul>
 							<li>Thời gian thí điểm/trình diễn dự kiến;</li>
 							<li>Địa điểm thí điểm/trình diễn dự kiến (tên (các) thành phố và mô tả (các) địa điểm trong (các) thành phố, ví dụ nhà máy);</li>
@@ -228,7 +240,7 @@
 			</div> 
 		</div>
 	</section>
-	<section class="box-step">
+	<!-- <section class="box-step">
 		<div class="container">
 			<div class="title text-center">
 				<h2>Quy trình lựa chọn</h2>
@@ -295,7 +307,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section class="box-quesstion">
 		<div class="container">
 			<div class="content-quesstion">
